@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/pollution">
+    <Button
+        android:id="@+id/NO2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:text="NO2"
+        android:onClick="setLogin"
+        />
+
+    <Button
+        android:id="@+id/CO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:text="CO"
+        android:onClick="setLogin"
+        />
+
+    <Button
+        android:id="@+id/C6H6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="20dp"
+        android:text="C6H6"
+        android:onClick="setLogin"
+        />
+
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="200dp"
+        android:layout_marginLeft="0dp"
+        android:text="NO2:microg /(m^3) CO:mg /(m^3) C6H6:microg/(m^3) "
+        />
+
+
+</RelativeLayout>
