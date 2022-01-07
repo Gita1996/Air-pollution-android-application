@@ -1,1 +1,1 @@
-# Gita
+Protein-Protein interaction prediction
