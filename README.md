@@ -1,0 +1,1 @@
+I used machine learning techniques and a train dataset of air pollution and predicted the values of pollutants of a test dataset using scikit-learn library. I made a httpServer in python and sent the results of prediction to an android application using the server. The android application shows the values of pollutants in different dates as a list to the users
